@@ -20,7 +20,7 @@
 
     <ShellContent
         Title="Note"
-        ContentTemplate="{DataTemplate views:NotePage}"
+        ContentTemplate="{DataTemplate views:AllNotesPage}"
         Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
 
 </Shell>
