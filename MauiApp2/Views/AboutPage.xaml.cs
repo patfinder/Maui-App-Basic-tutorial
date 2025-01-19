@@ -1,4 +1,4 @@
-namespace MauiApp2;
+namespace MauiApp2.Views;
 
 public partial class AboutPage : ContentPage
 {
