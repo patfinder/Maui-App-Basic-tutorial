@@ -20,5 +20,11 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+    private void OnButtonClick(object sender, EventArgs e)
+    {
+        DisplayAlert("Clicked!", "You clicked the button!", "OK");
+    }
+
 }
 

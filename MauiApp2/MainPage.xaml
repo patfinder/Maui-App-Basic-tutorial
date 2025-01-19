@@ -30,6 +30,15 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+
+            <Label Text="Welcome to .NET MAUI!" 
+                HorizontalOptions="Center"
+                />
+                <!-- VerticalOptions="CenterAndExpand"  -->
+            <Button Text="Click Me"
+                    Clicked="OnButtonClick" />
+
         </VerticalStackLayout>
     </ScrollView>
 
