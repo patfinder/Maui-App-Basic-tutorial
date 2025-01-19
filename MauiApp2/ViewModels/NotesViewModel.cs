@@ -50,7 +50,7 @@ void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query)
 
         // If note isn't found, it's new; add it.
         else
-            AllNotes.Add(new NoteViewModel(Note.Load(noteId)));
+            AllNotes.Add(new NoteViewModel(Models.Note.Load(noteId)));
+        }
     }
-}
 }
