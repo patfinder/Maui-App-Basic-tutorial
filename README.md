@@ -1,22 +1,29 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp2", "MauiApp2\MauiApp2.csproj", "{00B9D566-519E-48DF-A73D-17F1ACCEA30A}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00B9D566-519E-48DF-A73D-17F1ACCEA30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00B9D566-519E-48DF-A73D-17F1ACCEA30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00B9D566-519E-48DF-A73D-17F1ACCEA30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00B9D566-519E-48DF-A73D-17F1ACCEA30A}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-EndGlobal
+# Introduction
+
+This repo is a of .Net Maui `Todo-list` tutorial.
+
+- This tutorial demonstrate key concepts of `.Net Maui` application:
+  - XAML UI design and code behind.
+  - MVVM architecture pattern in Maui app with model, view and view model.
+  - Event handling
+  - Navigation between screens
+  - File access ...
+
+Below is the list of screens from the app.
+
+Home screen
+![alt text](MauiApp2/Captures/Home-1.png)
+
+Popup and Event handling
+![alt text](MauiApp2/Captures/Home-2.png)
+
+About screen
+![alt text](MauiApp2/Captures/About.png)
+
+Add a new Note
+![alt text](<MauiApp2/Captures/Add Note.png>)
+
+Notes list
+![alt text](<MauiApp2/Captures/Note List.png>)
+
